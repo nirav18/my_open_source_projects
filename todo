@@ -2,3 +2,22 @@ go.org
 go get <downaload and install pkg> // godoc.org
 
 https://pkg.go.dev/fmt
+
+
+// Arrays
+	// var fruitArr [2]string
+
+	// // Assign values
+	// tierArr[0] = "Apple"
+	// tierArr[1] = "Orange"
+
+	// Decalre and assign
+	// tierArr := [2]string{"Apps", "Webs"}
+
+	// fmt.Println(tierArr)
+	// fmt.Println(tierArr[1])
+
+	fruitSlice := []string{"Apple", "Orange", "Grape", "Cherry"}
+
+	fmt.Println(len(fruitSlice))
+	fmt.Println(fruitSlice[1:3])
