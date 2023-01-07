@@ -1,1 +1,4 @@
 go.org
+go get <downaload and install pkg> // godoc.org
+
+https://pkg.go.dev/fmt
